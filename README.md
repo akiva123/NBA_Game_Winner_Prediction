@@ -10,7 +10,7 @@ This project predicts the winner of an NBA game based on player attributes from 
 ### 1. **Data Collection: `Get_Data_from_NBAapi.ipynb`**
    - **Purpose**: Retrieve game data and player statistics from the NBA API.
    - **Contents**:
-     - Connects to the NBA API to fetch detailed player and team statistics.
+     - Connects to the NBA API to fetch the 5 starters for each team of each game for the 23-24 season.
      - Processes the data into a structured format suitable for modeling.
    - **Output**: A CSV file containing features such as average player ratings, team performance metrics, and game outcomes.
 
