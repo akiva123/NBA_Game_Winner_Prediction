@@ -53,5 +53,8 @@ This project predicts the winner of an NBA game based on player attribute rating
   - `matplotlib`
   - `pickle`
 
+---
 
+## Future Work
+I plan on incorporating backup players into the model by using weighted averages, giving starters higher weight.
 
