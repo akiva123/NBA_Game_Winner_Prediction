@@ -12,7 +12,7 @@ This project predicts the winner of an NBA game based on player attributes from 
    - **Contents**:
      - Connects to the NBA API to fetch the 5 starters for each team of each game for the 23-24 season.
      - Processes the data into a structured format suitable for modeling.
-   - **Output**: A CSV file containing features such as player ratings and game outcomes.
+   - **Output**: A CSV file containing features such as average team player ratings and game outcomes.
 
 ### 2. **Model Training and Testing: `Training&Testing_Model.ipynb`**
    - **Purpose**: Train and evaluate a machine learning model to predict game winners.
