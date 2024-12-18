@@ -1,7 +1,7 @@
 # NBA Game Winner Prediction Project
 
 ## Overview
-This project predicts the winner of an NBA game based on player attribute ratings from the NBA 2k game. It consists of three primary workflows: collecting game and player data, training and testing a machine learning model, and using the trained model to predict game outcomes. Below is a detailed explanation of the project files and their usage.  The model's predictive power metric scores tested in the 80-90% range.
+This project predicts the winner of an NBA game based on player attribute ratings from the NBA 2k game. It consists of three primary workflows: collecting game and player data, training and testing a machine learning model, and using the trained model to predict game outcomes. Below is a detailed explanation of the project files and their usage.  The model's predictive assessment metric scores tested in the 80-90% range.
 
 ---
 
