@@ -56,5 +56,6 @@ This project predicts the winner of an NBA game based on player attribute rating
 ---
 
 ## Future Work
-I plan on incorporating backup players into the model by using weighted averages, giving starters higher weight.
+- I plan on incorporating backup players into the model by using weighted averages, giving starters higher weight.
+- Additionally, I will determine whether a neural network will improve performance.
 
