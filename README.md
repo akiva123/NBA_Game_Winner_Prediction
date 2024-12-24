@@ -56,7 +56,6 @@ This project predicts the winner of an NBA game based on player attribute rating
 ---
 
 ## Future Work
-- Use PCA instead of the mean of the players’ attributes to create the features.  This method would use PCA to condense each team's five players into one per attribute, resulting in one list of attribute features for each team per game.
 - I plan on incorporating backup players into the model by using weighted averages, giving starters higher weight.
-- Additionally, I will determine whether a neural network will improve performance.
+
 
