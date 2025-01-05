@@ -7,14 +7,7 @@ This project predicts the winner of an NBA game based on player attribute rating
 
 ## Project Files
 
-### 1. **Data Collection: `Get_Data_from_NBAapi.ipynb`**
-   - **Purpose**: Retrieve game data and player statistics from the NBA API.
-   - **Contents**:
-     - Connects to the NBA API to fetch the 5 starters for each team of each game for the 23-24 season.
-     - Processes the data into a structured format suitable for modeling.
-   - **Output**: A CSV file containing features such as average team player ratings and game outcomes.
-
-### 2. **Model Training and Testing: `Training&Testing_Model.ipynb`**
+### 1. **Model Training and Testing: `Modeling.ipynb`**
    - **Purpose**: Train and evaluate a machine learning model to predict game winners.
    - **Contents**:
      - **Feature Scaling**: Uses `MinMaxScaler` to normalize player and team attributes.
@@ -25,7 +18,7 @@ This project predicts the winner of an NBA game based on player attribute rating
      - Serialized model: `rf_model.pkl`.
      - Serialized scaler: `scaler.pkl`.
 
-### 3. **Prediction: `NBA_Game_Winner_Predictor.ipynb`**
+### 2. **Prediction: `NBA_Game_Winner_Predictor.ipynb`**
    - **Purpose**: Predict the winner of a game based on two teams' starting players.
    - **Contents**:
      - Loads the trained model (`rf_model.pkl`) and scaler (`scaler.pkl`).
@@ -33,12 +26,6 @@ This project predicts the winner of an NBA game based on player attribute rating
      - Fetches player attributes from `league.json`.
      - Computes average attributes for each team, scales them using the pre-trained scaler, and makes a prediction.
    - **Output**: A prediction indicating whether Team 0 or Team 1 is expected to win.
-
-### 4. **Serialized Files**
-   - **`rf_model.pkl`**:
-     - The trained Random Forest model used for predictions.
-   - **`scaler.pkl`**:
-     - The MinMaxScaler used to normalize features during model training.
 
 
 ---
