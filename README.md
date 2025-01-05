@@ -1,7 +1,7 @@
 # NBA Game Winner Prediction Project
 
 ## Overview
-This project predicts the winner of an NBA game based on player attribute ratings from the NBA 2k game. It consists of three primary workflows: collecting game and player data, training and testing a machine learning model (random forest), and using the trained model to predict game outcomes. Below is a detailed explanation of the project files and their usage.  The model's predictive assessment metric scores tested in the high 60 to low 70s range.
+This project predicts the winner of an NBA game based on player attribute ratings from the NBA 2k game. It consists of three primary workflows: collecting game and player data, training and testing a machine learning model (random forest), and using the trained model to predict game outcomes. Below is a detailed explanation of the project files and their usage.  The model's predictive assessment metric scores tested in the high 60 to low 70s range.  Dashboard link: https://taipy-dashboard-1018899736558.us-central1.run.app/
 
 ---
 
